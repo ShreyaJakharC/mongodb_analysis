@@ -11,7 +11,6 @@ Imported and explored real-world AirBnB listings data for Nashville using MongoD
 - **Query Showcase:** Demonstrated basic `.find()`, `.pretty()` output and exact‐limit retrieval
 - **Filtered Views:** Retrieved superhost listings and high-bed-count properties sorted by rating
 - **Aggregations:** Computed per-host listing counts and per-neighbourhood average ratings
-- **Insight Extraction:** Used `distinct()`, `$group`, `$match`, and `$sort` to surface key trends
 
 ## Tech & Tools
 
@@ -23,8 +22,8 @@ Imported and explored real-world AirBnB listings data for Nashville using MongoD
 
 ## Results & Key Takeaways
 
-- **High-Quality Dataset:** Successfully cleaned and loaded 70k+ listings into MongoDB
-- **Superhost Spotlight:** Identified all listings by two superhosts with a single, concise query
+- **Large Dataset:** Successfully cleaned and loaded 70k+ listings into MongoDB
+- **Superhost AirBnB:** Identified all listings by two superhosts with a single, concise query
 - **Bed-Count Insights:** Found homes with >2 beds in Nashville, ordered by review scores
 - **Host Activity:** Discovered top hosts by number of listings (e.g., host 101426897 with 185 listings)
 - **Top Neighbourhoods:** Revealed neighbourhoods averaging 5.0 ratings (“Ashland City”, “NASHVILLE”, etc.)
