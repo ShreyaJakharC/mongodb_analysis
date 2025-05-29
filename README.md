@@ -18,8 +18,7 @@ Imported and explored real-world AirBnB listings data for Nashville using MongoD
 - **Import Utility:** `mongoimport` (CSV → BSON)
 - **Scripting:** Bash for import commands, Python for pre‐import munging
 - **Analysis:** Mongo shell queries and aggregation pipeline
-- **Environment:** i6.cims.nyu.edu server, gzip for decompression
-
+  
 ## Results & Key Takeaways
 
 - **Large Dataset:** Successfully cleaned and loaded 70k+ listings into MongoDB
